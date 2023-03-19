@@ -8,6 +8,12 @@ __pycache__/
 
 .idea
 
+conf
+
+dataset
+.vscode
+
+
 # Distribution / packaging
 .Python
 build/
