@@ -3,6 +3,8 @@
 ## Overview
 This project involves the classification of images of flowers using deep learning models. The team experimented with several popular models such as ResNet, VGGNet, and MobileNet to improve the accuracy of image classification tasks. The project was developed as part of COMP6721 in the Winter 2023 semester.
 <br />
+<br />
+<hr />
 Video presentation of the project :<a href="https://drive.google.com/file/d/1WeUqoijLtB-4HBbe2iwRjDs2WH0kxQH0/view?usp=sharing">*Google Drive*</a>
 <br />
 <hr />
