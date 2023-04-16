@@ -23,7 +23,11 @@ COMP6721_Winter2023_GroupO
 │   ├── vggnet-16.ipynb
 │   ├── mobilenet-5.ipynb
 │   ├── mobilenet-7.ipynb
-│   └── mobilenet-16.ipynb
+│   ├── mobilenet-16.ipynb
+│   ├── SGD_Optimizer_vggnet-7.ipynb
+│   ├── transfer_resnet_5.ipynb
+│   ├── transfer_mobilenet_16.ipynb
+│   └── transfer_vggnet-5.ipynb
 ├── LICENSE
 ├── .gitignore
 ├── README.md
