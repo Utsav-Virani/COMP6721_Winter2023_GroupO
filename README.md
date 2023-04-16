@@ -59,9 +59,9 @@ This file tells Git which files and directories to ignore when committing change
 
 ## Summary of the generated models:
 
-|               | Resnet-18 | Mobilenet-V2 | VGG-19 |
-| ------------- | --------- | ------------ | ------ |
-|               | D1        | D2           | D3     | D1 | D2 | D3 | D1 | D2 | D3 |
+|               | Resnet-18 |              |        | Mobilenet-V2 |              |        | VGG-19    |              |        |
+| ------------- | --------- | ------------ | ------ | ------------ | ------------ | ------ | --------- | ------------ | ------ |
+|               | D1        | D2           | D3     | D1           | D2           | D3     | D1        | D2           | D3     |
 | Accuracy (%)  | 82.99     | 87.14        | 81.98  | 82.99 | 87.59 | 81.85 | 10.13 | 14.29 | 6.68 |
 | Precision (%) | 83        | 88           | 83     | 83 | 88 | 82 | 1 | 2 | 0 |
 | Recall (%)    | 83        | 87           | 82     | 83 | 88 | 82 | 10 | 14 | 7 |
