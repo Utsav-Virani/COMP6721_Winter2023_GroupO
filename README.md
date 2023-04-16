@@ -1,10 +1,28 @@
-# Flower Classification
+#  Flower Classification
 
 ## Overview
 This project involves the classification of images of flowers using deep learning models. The team experimented with several popular models such as ResNet, VGGNet, and MobileNet to improve the accuracy of image classification tasks. The project was developed as part of COMP6721 in the Winter 2023 semester.
 <br />
 <br />
 <hr />
+
+## Datasets
+Datasets | Auther | Links |
+| ------------- | --------- | ------------ |
+| Flower Classification | utkarshsaxenadn | <a href="https://www.kaggle.com/datasets/utkarshsaxenadn/flower-classification-5-classes-roselilyetc">*kaggle*</a>, <a href="https://drive.google.com/file/d/129efP8KotN_J4xleFU6rnfYfeMnwLEm2/view?usp=share_link">*Google Drive*</a> |
+| 🌸 \| Flowers | l3llff | <a href="https://www.kaggle.com/datasets/l3llff/flowers">*kaggle*</a>, <a href="https://drive.google.com/file/d/18624X71QkDaRGt4_3kD653odU4HU1BbL/view?usp=share_link">*Google Drive*</a> |
+| flowers | nadyana | <a href="https://www.kaggle.com/datasets/nadyana/flowers">*kaggle*</a>, <a href="https://drive.google.com/file/d/1qWMuBOltrt6HkIjtUnJdY7p0uZ6J05ik/view?usp=sharing">*Google Drive*</a> |
+
+<hr />
+<br >
+
+## Pretrained models
+
+- All the Pretrained models are available 
+<a href="https://drive.google.com/drive/folders/1HNUYiqfY7ADcNtDRBwwVOoht0UPNmgQw?usp=sharing">*here*</a>
+
+<hr />
+<br >
 
 ## Folder Structure
 The project folder has the following structure:
@@ -33,31 +51,77 @@ COMP6721_Winter2023_GroupO
 ├── README.md
 └── requirements.txt
 ```
-### Notebooks
-This folder contains `Jupyter notebooks` used for machine learning experiments with various models. Each notebook is named after the corresponding deep learning model used for the experiments. There are multiple versions of each notebook, with different numbers indicating the depth of the neural network used for the experiments. The notebooks include code for loading and preprocessing datasets, defining and training neural network models, and evaluating the performance of the models. They also contain visualizations of training progress and model performance metrics.
+### <li>Notebooks
+This folder contains `Jupyter notebooks` used for machine learning experiments with various models. These notebooks are compatible with `Google Colab`, `Jupyter Notebooks`, and `Kaggle`. 
+>**Note:**
+>*To use these notebooks, you `must install all the required libraries` mentioned in the ```requirements.txt``` file in your environment and place the datasets in the appropriate location, or adjust the folder path mentioned in the code accordingly.*
 
-These notebooks are compatible with `Google Colab`, `Jupyter Notebooks`, and `Kaggle`. To use these notebooks, you `must install all the required libraries` mentioned in the ```requirements.txt``` file in your environment and place the datasets in the appropriate location, or adjust the folder path mentioned in the code accordingly.
-
-Docs
+### <li>Docs
 This folder contains all the project documents created by the team. These include the project proposal and the final project report.
 
 
-### LICENSE:
+### <li>LICENSE:
 This file contains the license under which the software in this repository is released. It is important to read and understand the license before using or distributing any code or other materials in this repository.
 
-### requirements.txt:
-This file contains a list of all the Python packages that are required to run the notebooks in this repository. To use these notebooks, you should install these packages in a virtual environment or in your system's Python installation. <br >You can do this by running the following command in your terminal or command prompt:
-
+### <li>requirements.txt:
+This file contains a list of all the Python packages that are required to run the notebooks in this repository. 
+>**Note:**
+>*You can install the required libraries by running the following command in your terminal or command prompt:*
 ``` 
 pip install -r requirements.txt
 ```
 
-### .gitignore:
-This file tells Git which files and directories to ignore when committing changes to the repository. Files and directories listed in this file will be excluded from version control and will not be pushed to the remote repository. This can be useful for excluding large files, temporary files, log files, or other files that do not need to be included in the repository.
-
 <hr />
 
-## Summary of the generated models:
+<br />
+
+## How to run the code
+>**Note:**
+> *If you want to train the model from the scratch follow the bellow steps:*
+
+1. Clone the repository to your local machine using the following command:
+```
+git clone https://github.com/Utsav-Virani/COMP6721_Winter2023_GroupO
+```
+2. Install the required dependencies using the following command:
+```
+pip install -r requirements.txt
+```
+3. Launch Jupyter Notebook using the following command:
+```
+jupyter notebook
+```
+4. Navigate to the notebooks directory in your Jupyter Notebook dashboard and open the `.ipynb` file.
+
+5. Run the notebook by clicking on the "Run" button or by using the "Shift + Enter" keyboard shortcut.
+
+>**Note:**
+>*The dataset used in the notebook can be found on the `Kaggle` or `GDrive`. The links for that are mentioned above.*
+
+>**Note:**
+>*Its is convineint for you to run this noptebooks on `kaggle` as you dont have to download the datasets or in the `google Colab`.*
+
+<hr />
+<br>
+
+## How to Test the model
+>**Note:**
+> *If you do not want to train the model from the scratch and just have to test the pretrained model then follow the bellow steps:*
+
+1. Load the `'ModelTesting.ipynb'` file from the `'notebooks'` folder, which contains the testing code for the model.
+
+2. Provide the input path of the trained model in the `'torch.load()'` function, which will load the model for testing purposes.
+
+3. A dictionary named `'sat_map'` has been defined for the `dataset-1`, which can be used to convert the predicted output to class labels. Similar dictionaries can be created for other datasets as well.
+
+4. To pass an image for classification, simply provide the path of the image in the `'image.open()'` method, which will open the image for processing.
+
+5. Execute the code to obtain the prediction for the input image.
+
+<br>
+<hr />
+
+## Summary of the generated models
 
 |               | Resnet-18 |              |        | Mobilenet-V2 |              |        | VGG-19    |              |        |
 | ------------- | --------- | ------------ | ------ | ------------ | ------------ | ------ | --------- | ------------ | ------ |
