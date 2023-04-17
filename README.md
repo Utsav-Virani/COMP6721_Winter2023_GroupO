@@ -5,7 +5,8 @@ This project involves the classification of images of flowers using deep learnin
 <br />
 <br />
 <hr />
-Video presentation of the project : <a href="https://drive.google.com/file/d/1WeUqoijLtB-4HBbe2iwRjDs2WH0kxQH0/view?usp=sharing"> Google Drive </a>
+Video presentation of the project : <a href="https://drive.google.com/file/d/1WeUqoijLtB-4HBbe2iwRjDs2WH0kxQH0/view?usp=sharing"> Google Drive </a> <br />
+Presentation Slides: <a href="https://drive.google.com/file/d/1SoPH9GDakJo5O5cO07lee23vc1H11Zl4/view?usp=share_link"> Google Drive </a>
 <br />
 <hr />
 
