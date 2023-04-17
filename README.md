@@ -61,6 +61,9 @@ This folder contains `Jupyter notebooks` used for machine learning experiments w
 >**Note:**
 >*To use these notebooks, you `must install all the required libraries` mentioned in the ```requirements.txt``` file in your environment and place the datasets in the appropriate location, or adjust the folder path mentioned in the code accordingly.*
 
+### <li>Notebooks/Extra
+This folder contains all the extra notebooks that were mainteined throughout development process.
+  
 ### <li>Docs
 This folder contains all the project documents created by the team. These include the project proposal and the final project report.
 
